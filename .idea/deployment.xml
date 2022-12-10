@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="lj@10.21.25.238:22 password" autoUploadExternalChanges="true" showAutoUploadSettingsWarning="false">
+    <serverData>
+      <paths name="10.21.25.236">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/wwc/pythonProject" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="lj@10.21.25.238:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data1/lj/wwc/NeuralTMT" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wwc@10.21.25.236:22">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/wwc/pythonProject" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="wwc@10.21.25.237:22 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/wwc/NueralTMT-master" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
