@@ -4,7 +4,7 @@ import os
 
 from sklearn.model_selection import train_test_split
 
-from evaluate import evaluate_model
+from utils.evaluate import evaluate_model
 from model.NeuralTMT import NeuralTMT
 
 int_classes = int
@@ -13,11 +13,11 @@ import torch
 from torch.nn.utils.rnn import pad_sequence
 from tqdm import tqdm
 import re
-from bpr_dataset import BPR_Dataset
-from bpr_loss import BPR_Loss
+from utils.bpr_dataset import BPR_Dataset
+from utils.bpr_loss import BPR_Loss
 import torch.utils.data as data
-from load_data import load_data_from_dir, set_random_seed, GenerateTrainSample
-from logger import Logger
+from utils.load_data import load_data_from_dir, set_random_seed, GenerateTrainSample
+from utils.logger import Logger
 
 
 def rewrite_collate(batch):

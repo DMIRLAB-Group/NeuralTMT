@@ -1,7 +1,7 @@
 import numpy as np
 from tqdm import tqdm
 
-from metrics import ndcg, hr, recall
+from utils.metrics import ndcg, hr, recall
 
 
 def evaluate_model(model, test_loader, is_training=None, item_num=None, logger=None):

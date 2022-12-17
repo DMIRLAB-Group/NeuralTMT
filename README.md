@@ -1,5 +1,5 @@
 # NeuralTMT
-The code and dataset for our NN 2022 paper: Factorizing Time-heterogeneous Markov Transition for Temporal Recommendation(https://www.sciencedirect.com/science/article/abs/pii/S0893608022004737). We have implemented our methods in Pytorch.
+The code and dataset for our NN 2022 paper: Factorizing Time-heterogeneous Markov Transition for Temporal Recommendation(https://doi.org/10.1016/j.neunet.2022.11.032). We have implemented our methods in Pytorch.
 
 ## Dependencies
 
