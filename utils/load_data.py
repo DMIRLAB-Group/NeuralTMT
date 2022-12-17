@@ -14,17 +14,17 @@ def softmax(x, list):
 #load dataset
 def load_data_from_dir(dataset):
     if dataset == "nyc":
-        dataset_filename = '../data/nyc/nyc_for_our.pkl'
+        dataset_filename = './data/nyc/nyc_for_our.pkl'
         user_set = {i for i in range(1083)}
         item_set = {i for i in range(9989)}
 
     elif dataset == "tky":
-        dataset_filename = '../data/tky/tky_for_our.pkl'
+        dataset_filename = './data/tky/tky_for_our.pkl'
         user_set = {i for i in range(2293)}
         item_set = {i for i in range(15177)}
 
     elif dataset == "gowalla":
-        dataset_filename = '../data/gowalla/gowalla_for_our.pkl'
+        dataset_filename = './data/gowalla/gowalla_for_our.pkl'
         user_set = {i for i in range(1186)}
         item_set = {i for i in range(41275)}
 
